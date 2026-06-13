@@ -488,6 +488,7 @@ with col_center:
                     ]
                 )
 
+<<<<<<< HEAD
                 tingkat_kejuaraan = st.selectbox(
                     "Tingkat Kejuaraan",
                     [
@@ -948,3 +949,16 @@ with col_center:
 
                 with col5:
                     st.metric("🎯 Nilai Akhir", f"{nilai_akhir:.2f}")
+=======
+            with col1:
+                st.metric("📖 Nilai Rapor", f"{nr*0.3:.2f}")
+
+            with col2:
+                st.metric("📝 Nilai TKA", f"{tka*0.4:.2f}")
+
+            with col3:
+                st.metric("🏆 Skor Prestasi", f"{sp*0.3:.2f}")
+
+            with col4:
+                st.metric("🎯 Nilai Akhir", f"{nilai_akhir:.2f}")
+>>>>>>> 937c429c055e60d125644bf448c655f2912a5288
